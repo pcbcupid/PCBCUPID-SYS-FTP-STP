@@ -1,0 +1,546 @@
+(footprint "MIC-CH2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 42.2 -22.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c8393cd-61ca-4fb4-8c0e-fe9045eea21b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MIC-CH2"
+		(at 42.2 -20.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c44665c-31b1-4e90-9bea-b7ea87720a48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7c36b67-1968-4c02-8ccf-da31c6c992d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ecf7bd3-254c-4dd4-97e9-b8eccf2d6e0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "TDK InvenSense"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07256b5b-0761-43cb-b8f6-c340bac60197")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "Multi-Mode Microphone with I2S Digital Output"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "246d4571-88c7-434f-a2d5-991621e90776")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "LGA-6 TDK-InvenSense"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "badb11e7-e908-459a-b526-f33dc61a144a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "2.43 USD"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8dfcd35-8948-4d13-bcef-f2953e355556")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "Custom Package TDK InvenSense"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b04a70ce-428f-4bf4-bfd1-beee97ec8f7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/ICS-43434/TDK/view-part/?ref=eda"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1845bf4-f559-4ea8-bd86-c45a25708609")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0fe9618-1ce3-457e-a8dc-ea655745e8dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/ICS-43434/TDK/view-part/?ref=snap"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20618678-7145-411b-ac62-99669bf7cbe4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "ICS-43434"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5b89452-fa3b-4b0c-a50c-7a2b00b81e38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13e769c3-6465-496a-ac56-80003b6a7408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "Bad"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa3ddb4c-5176-4cb8-83ad-0307f957d2bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            60 Hz ~ 20 kHz Digital, I2S Microphone MEMS (Silicon) 1.65 V ~ 3.63 V Omnidirectional (-26 ±1dB @ 94dB SPL) Solder Pads\n                        \n"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39b33d6e-e634-40c8-a0f9-298e3c8b9899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "TDK InvenSense"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43388441-fe1d-4c47-a6df-bd0b667eedd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "Multi-Mode Microphone with I2S Digital Output"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4741bc03-f00e-4b8b-a858-4e45e48c02eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "LGA-6 TDK-InvenSense"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a332f77d-04d6-496c-9bf2-5900650f9cde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "2.43 USD"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44272d82-16ee-4948-9ab5-6c7d772d3a3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "Custom Package TDK InvenSense"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0565a228-3f79-4748-be43-2d924181500b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/ICS-43434/TDK/view-part/?ref=eda"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a0869e1-1243-4436-83f3-697de982c95d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b7a2d34-a2f3-4a57-b889-fc71164b9f19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/ICS-43434/TDK/view-part/?ref=snap"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ecf5070-15f6-4628-b503-86a32b458bd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "ICS-43434"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3f46772-0b0d-48e6-a6cf-87ace4f6d55e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07d1092c-0fa7-4d68-bb88-bd959c92151b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "Bad"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aaf57d1-25f5-45a8-9c94-639366b2e54d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            60 Hz ~ 20 kHz Digital, I2S Microphone MEMS (Silicon) 1.65 V ~ 3.63 V Omnidirectional (-26 ±1dB @ 94dB SPL) Solder Pads\n                        \n"
+		(at 12.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bacf65c8-efd5-49cb-916a-a54d481b8f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -14.194238 10.908789)
+		(end -14.193979 -6.835116)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6867fd7f-3c68-4083-8935-94c4cae63220")
+	)
+	(fp_line
+		(start -11.654238 -9.411209)
+		(end 8.644114 -9.411209)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c7779dbc-e1c5-42f1-81bc-13a0858810aa")
+	)
+	(fp_line
+		(start 8.684114 13.44853)
+		(end -11.618145 13.44853)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cc7df64c-18d6-4126-9ff7-3f452760014e")
+	)
+	(fp_line
+		(start 11.24853 10.884114)
+		(end 11.24853 -6.871468)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fd5ef5f6-b2d1-47b3-811d-229e71583dbb")
+	)
+	(fp_arc
+		(start -14.193979 -6.835116)
+		(mid -13.457567 -8.649093)
+		(end -11.654238 -9.411209)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f5968ee7-aba5-4521-a982-4c34a6c813b8")
+	)
+	(fp_arc
+		(start -11.618145 13.44853)
+		(mid -13.432162 12.712158)
+		(end -14.194238 10.908789)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "35322121-2f80-43de-8927-8e864dfd2b2b")
+	)
+	(fp_arc
+		(start 8.6357 -9.411209)
+		(mid 10.468 -8.68492)
+		(end 11.240116 -6.871468)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "486b3528-c61c-4708-b08e-84ef3d00cac3")
+	)
+	(fp_arc
+		(start 11.24853 10.884114)
+		(mid 10.505108 12.705108)
+		(end 8.684114 13.44853)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cd1ae4b2-aed0-40cd-bda5-bff2e890d08f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 42.2 -19.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "16e19049-8012-4d87-ae51-8111137fad1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -11.6 -6.843156)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09473d79-337c-45f3-8e3a-86ce930bf7bd")
+	)
+	(pad "1" thru_hole circle
+		(at -11.575466 10.936844)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ebecb08-57ef-479b-b083-b3a5864e13a3")
+	)
+	(pad "1" thru_hole rect
+		(at 4.9 -5.6 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22918d02-33bb-496b-8545-7a9ad4d11773")
+	)
+	(pad "1" thru_hole circle
+		(at 8.71001 10.91001)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77a6662b-64e3-4976-a1db-34a59ff9f059")
+	)
+	(pad "1" thru_hole circle
+		(at 8.710014 -6.869986)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa09c46d-01e4-42c7-a712-6875785344ec")
+	)
+	(pad "2" thru_hole oval
+		(at 2.4 -5.6 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10eeab4c-cded-41c1-9ba8-2c0441f209c9")
+	)
+	(pad "3" thru_hole oval
+		(at -0.2 -5.6 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c321f35f-a97f-425c-9807-24e7c7362a7f")
+	)
+	(pad "4" thru_hole oval
+		(at -2.7 -5.6 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a32a86d-fa10-4fab-880a-9e05d7b412e9")
+	)
+	(pad "5" thru_hole oval
+		(at -5.3 -5.6 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffd4b7dd-3109-43d7-81b6-4ced250199a8")
+	)
+	(pad "6" thru_hole oval
+		(at -7.8 -5.6 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c3267a7-bbde-494d-9302-b019e775b495")
+	)
+	(embedded_fonts no)
+)
