@@ -2,12 +2,12 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "CH1_MIC"
+	(symbol "Gsense-1CH-MIC"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U2"
-			(at -167.64 27.9399 0)
+		(property "Reference" "U"
+			(at 0.762 14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -167.64 29.845 0)
+			(at -175.26 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "mic:CH1_mic_footprint"
-			(at -166.37 34.29 0)
+			(at 0.254 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -166.37 34.29 0)
+			(at -173.99 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -166.37 34.29 0)
+			(at -173.99 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,10 +51,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CH1_MIC_0_1"
+		(symbol "Gsense-1CH-MIC_0_1"
 			(rectangle
-				(start -144.145 41.275)
-				(end -167.005 15.875)
+				(start -11.43 11.43)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -64,29 +64,41 @@
 				)
 			)
 		)
-		(symbol "CH1_MIC_1_1"
-			(text_box "CH1 MIC"
-				(at -165.1 31.75 0)
-				(size 12.7 -3.81)
-				(margins 2.54 1.524 1.016 1.016)
+		(symbol "Gsense-1CH-MIC_1_1"
+			(rectangle
+				(start -10.16 8.89)
+				(end -5.08 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 1.905)
+				(end 2.54 -1.905)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
+			)
+			(text "Gsense-1CH-MIC"
+				(at -7.62 -0.762 900)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(pin power_in line
-				(at -141.605 38.735 180)
+				(at 12.7 8.89 180)
 				(length 2.54)
-				(name "VCC"
+				(name "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -102,7 +114,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -141.605 34.925 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -120,7 +132,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -141.605 31.115 180)
+				(at 12.7 1.27 180)
 				(length 2.54)
 				(name "SD"
 					(effects
@@ -138,7 +150,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -141.605 27.305 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "WS"
 					(effects
@@ -156,7 +168,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -141.605 23.495 180)
+				(at 12.7 -6.35 180)
 				(length 2.54)
 				(name "LR"
 					(effects
@@ -174,7 +186,7 @@
 				)
 			)
 			(pin power_in line
-				(at -141.605 19.685 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "GND"
 					(effects

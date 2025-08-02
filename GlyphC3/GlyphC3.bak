@@ -76,7 +76,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -21.59) (xy -2.54 -22.86)
+					(xy -3.175 -21.59) (xy -3.175 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -99,9 +99,9 @@
 				)
 			)
 			(arc
-				(start -2.54 -21.59)
-				(mid -2.168 -20.692)
-				(end -1.27 -20.32)
+				(start -3.175 -21.59)
+				(mid -2.803 -20.692)
+				(end -1.905 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -112,7 +112,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -20.32) (xy -1.27 -20.32)
+					(xy 1.905 -20.32) (xy -1.905 -20.32)
 				)
 				(stroke
 					(width 0)
@@ -123,9 +123,9 @@
 				)
 			)
 			(arc
-				(start 2.5401 -20.3199)
-				(mid 3.4381 -20.6919)
-				(end 3.8101 -21.5899)
+				(start 1.9051 -20.3199)
+				(mid 2.8031 -20.6919)
+				(end 3.1751 -21.5899)
 				(stroke
 					(width 0)
 					(type default)
@@ -136,7 +136,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -21.59) (xy 3.81 -22.86)
+					(xy 3.175 -21.59) (xy 3.175 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -503,7 +503,7 @@
 			)
 		)
 		(symbol "GLYPHC3_1_1"
-			(text "GLYPHC3"
+			(text "GLYPH-C3"
 				(at 0 -0.254 900)
 				(effects
 					(font
