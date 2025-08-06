@@ -2,20 +2,21 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "RTC_Module_"
+	(symbol "GMOD- MICRO SD CARD"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 12.954 8.636 0)
+			(at 1.143 -10.287 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at -7.62 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +24,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at -7.62 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +33,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -7.62 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +42,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -7.62 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,10 +50,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "RTC_Module__0_1"
+		(symbol "GMOD- MICRO SD CARD_0_1"
 			(rectangle
-				(start -8.89 7.62)
-				(end 8.89 -7.62)
+				(start -10.16 12.7)
+				(end 11.43 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,29 +63,41 @@
 				)
 			)
 		)
-		(symbol "RTC_Module__1_1"
-			(text_box "RTC\n"
-				(at -5.08 1.27 0)
-				(size 10.16 -3.81)
-				(margins 1.016 1.016 1.016 1.016)
+		(symbol "GMOD- MICRO SD CARD_1_1"
+			(rectangle
+				(start -8.89 12.7)
+				(end -3.81 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 8.255)
+				(end 6.35 -7.62)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
+			)
+			(text "GMOD- MICRO SD CARD"
+				(at -6.35 0.508 900)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify top)
 				)
 			)
 			(pin power_in line
-				(at -6.35 10.16 270)
+				(at 13.97 10.16 180)
 				(length 2.54)
-				(name "VCC"
+				(name "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -99,10 +112,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -3.81 10.16 270)
+			(pin bidirectional line
+				(at 13.97 7.62 180)
 				(length 2.54)
-				(name "GND"
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,9 +131,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 10.16 270)
+				(at 13.97 5.08 180)
 				(length 2.54)
-				(name "INT"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -136,9 +149,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 10.16 270)
+				(at 13.97 2.54 180)
 				(length 2.54)
-				(name "CLK"
+				(name "MO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,9 +167,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 10.16 270)
+				(at 13.97 0 180)
 				(length 2.54)
-				(name "SDA"
+				(name "MI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -172,9 +185,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 10.16 270)
+				(at 13.97 -2.54 180)
 				(length 2.54)
-				(name "SCL"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -182,6 +195,60 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "CD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -10.16 180)
+				(length 2.54)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
