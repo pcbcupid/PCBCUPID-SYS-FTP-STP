@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 45.6 -39.1 0)
+		(at 0.5 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "99f01ab2-3fe4-4ce5-bb9a-f38a7450d72b")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "GlyphC3"
-		(at 45.6 -37.6 0)
+		(at 0.5 -1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f49e7c36-2f0d-45dc-9a3d-417319ea7efd")
@@ -153,9 +153,9 @@
 		(end -25.40876 -8.653842)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "10dc52e3-a436-4fb2-a886-5f68a399783c")
 	)
 	(fp_line
@@ -163,9 +163,9 @@
 		(end 22.850972 -11.229934)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "52462f81-94eb-429f-8154-fd1b0c2fd51b")
 	)
 	(fp_line
@@ -173,9 +173,9 @@
 		(end -22.832926 11.630064)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "1973920f-7e61-4135-9a56-03470ecbdfe1")
 	)
 	(fp_line
@@ -183,9 +183,9 @@
 		(end 25.390713 9.053971)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "b451a5f4-d833-4cf7-b06b-2fd69fe71f8b")
 	)
 	(fp_arc
@@ -194,9 +194,9 @@
 		(end -22.869019 -11.229935)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "9ea9c242-c6ed-4dd7-a438-920992d458ec")
 	)
 	(fp_arc
@@ -205,9 +205,9 @@
 		(end -25.409019 9.090063)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "c5e972a4-029c-45c1-a565-1cf30aa2b190")
 	)
 	(fp_arc
@@ -216,9 +216,9 @@
 		(end 25.427065 -8.690193)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "800fb696-b671-4d5e-ac6e-1527dc3ef3e1")
 	)
 	(fp_arc
@@ -227,9 +227,9 @@
 		(end 22.850972 11.630064)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "fe299f71-fee0-428f-a4e1-1be331034d29")
 	)
 	(fp_circle
@@ -277,7 +277,7 @@
 		(uuid "f5b84bc5-5c61-4441-aa32-499feb588577")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 45.6 -36.1 0)
+		(at 0.5 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f683f7b1-6d14-4e6b-8dd2-13782b0dd291")
@@ -549,4 +549,15 @@
 		(uuid "2aa235b7-ded0-410d-a8d2-82b6c10d1548")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/esp32c3.step"
+		(offset
+			(xyz 150 -106.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
