@@ -449,7 +449,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at -21.536773 -5.132081)
 		(size 1.9304 1.9304)
 		(drill 1)
@@ -481,7 +481,7 @@
 		(remove_unused_layers no)
 		(uuid "1b1f563a-a33f-45d3-b54a-aaf9251d2c2a")
 	)
-	(pad "5" thru_hole rect
+	(pad "5" thru_hole circle
 		(at 16.653227 -7.712081 270)
 		(size 3 3)
 		(drill 1.52)

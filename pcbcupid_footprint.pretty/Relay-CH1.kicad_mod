@@ -210,7 +210,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "NC"
+	(fp_text user "NO"
 		(at 17.775 6.235 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -238,7 +238,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "NO"
+	(fp_text user "NC"
 		(at 17.65 -3.99 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -418,12 +418,12 @@
 		(uuid "477fd020-e6e0-42bc-905c-e530980c735c")
 	)
 	(pad "4" thru_hole circle
-		(at 16.35 -4.48)
+		(at 16.35 5.72)
 		(size 1.9 1.9)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "81c1e587-0534-4bf8-82b1-40ee90c95b13")
+		(uuid "917eda43-3c3d-41b0-b056-e20400f166c1")
 	)
 	(pad "5" thru_hole circle
 		(at 16.35 0.62)
@@ -434,12 +434,12 @@
 		(uuid "93bf45d6-b0bc-4b53-b4be-7179f9d2a412")
 	)
 	(pad "6" thru_hole circle
-		(at 16.35 5.72)
+		(at 16.35 -4.48)
 		(size 1.9 1.9)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "917eda43-3c3d-41b0-b056-e20400f166c1")
+		(uuid "81c1e587-0534-4bf8-82b1-40ee90c95b13")
 	)
 	(embedded_fonts no)
 	(model "D:/KICAD PROJECTS/CH1 relay/PCBCUPID-RELAY-1CH.step"
